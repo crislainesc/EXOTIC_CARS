@@ -1,7 +1,7 @@
 # Prova Extra
 
 Objetivo da prova é implementar as telas da aplicação teste chamada “Exotic Cars” seguindo este
-<a href="https://xd.adobe.com/view/699a6983-35c7-4662-bc81-5c626742102d-3cc9/%22%3Eprotótipo</a>
+<a href="https://xd.adobe.com/view/699a6983-35c7-4662-bc81-5c626742102d-3cc9/">protótipo</a>.
 
 Requisitos Funcionais
 
