@@ -1,0 +1,372 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "model": "California",
+      "brand": "Ferrari",
+      "price": 725,
+      "period": "day",
+      "brand_logo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Ferrari-Logo.png?alt=media&token=a9003932-8c17-4337-b7fd-0854830c3abb",
+      "cover_photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Ferrari-California-Background.png?alt=media&token=802992c9-4b2c-4932-a630-a60807c787d2",
+      "photos": [
+        {
+          "color": "red",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Ferrari-California-Red.png?alt=media&token=28e3aefb-0b7e-436b-808c-22b383953bec"
+        },
+        {
+          "color": "yellow",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Ferrari-California-Yellow.png?alt=media&token=b11520a6-2d39-43f7-9e73-08856692f7ec"
+        },
+        {
+          "color": "gray",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Ferrari-California-Gray.png?alt=media&token=04eab8fe-72e8-4865-bf71-c71fe8f39a33"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "model": "911 Turbo S",
+      "brand": "Porshe",
+      "price": 725,
+      "period": "day",
+      "brand_logo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Porshe-Logo.png?alt=media&token=fb1affca-c235-4def-9ca9-49ecac0b94ac",
+      "cover_photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Porshe-911-Turbo-S-Background.png?alt=media&token=531dfcee-baf7-43df-b8d6-f935df78444e",
+      "photos": [
+        {
+          "color": "white",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Porshe-Turbo-S-White.png?alt=media&token=8cc76a99-45e7-4af9-a67d-dd27d4948c65"
+        },
+        {
+          "color": "red",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Porshe-911-Turbo-S-Red.png?alt=media&token=32134b6b-e739-4380-844d-ab72b30c2021"
+        },
+        {
+          "color": "black",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Porshe-911-Turbo-S-Black.png?alt=media&token=97952aeb-7796-417a-ae2f-46c24ec5068d"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "model": "570 S",
+      "brand": "Mclaren",
+      "price": 725,
+      "period": "day",
+      "brand_logo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Mclaren-Logo.png?alt=media&token=bff1c6fa-059c-4dba-9a10-61c655fbf080",
+      "cover_photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Mclaren-570-S-Background.png?alt=media&token=d097433e-884c-4e83-955f-415ed3cb87dc",
+      "photos": [
+        {
+          "color": "orange",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Mclaren-570-S-Orange.png?alt=media&token=e118cabc-f1e5-4a9c-9207-569f96de4419"
+        },
+        {
+          "color": "purple",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Mclaren-570-S-Purple.png?alt=media&token=5fd08608-8d02-4d70-be86-ef27b37e3d74"
+        },
+        {
+          "color": "blue",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Mclaren-570-S-Blue.png?alt=media&token=78273493-cb68-44ec-a0cb-2f3e297d9687"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "model": "320 S3",
+      "brand": "BMW",
+      "price": 725,
+      "period": "day",
+      "brand_logo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/BMW-Logo.png?alt=media&token=c26015d2-03b7-4384-8911-c64745362fd1",
+      "cover_photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/BMW-320-S3-Background.png?alt=media&token=737361ba-aac3-4d99-a9d1-316f11903a6d",
+      "photos": [
+        {
+          "color": "white",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/BMW-320-S3-White.png?alt=media&token=211e6d5c-5298-45b6-a0e2-d2c642420c7e"
+        },
+        {
+          "color": "blue",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/BMW-320-S3-Blue.png?alt=media&token=579a3a72-4ba7-451a-a35e-275a5f6e01f0"
+        },
+        {
+          "color": "gray",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/BMW-320-S3-Gray.png?alt=media&token=21602135-725c-4f3d-a19a-55b4a6985240"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "model": "911 GT3 RS",
+      "brand": "Porshe",
+      "price": 825,
+      "period": "day",
+      "brand_logo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Porshe-Logo.png?alt=media&token=fb1affca-c235-4def-9ca9-49ecac0b94ac",
+      "cover_photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Porshe-911-GT3-RS-Background.png?alt=media&token=26ec23cc-b225-46e9-9b47-5aafefd560ef",
+      "photos": [
+        {
+          "color": "yellow",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Porshe-911-GT3-RS-Yellow.png?alt=media&token=3809f6ea-fda9-412a-93f6-127c50794e28"
+        },
+        {
+          "color": "orange",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Porshe-911-GT3-RS-Orange.png?alt=media&token=c5c54575-b099-4d53-bb8b-fdbcc88e685b"
+        },
+        {
+          "color": "gray",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Porshe-911-GT3-RS-Gray.png?alt=media&token=6efffedd-adc4-46bb-a598-94a0e5f8c125"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "model": "Continental GT",
+      "brand": "Bentley",
+      "price": 825,
+      "period": "day",
+      "brand_logo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Bentley-Logo.png?alt=media&token=7f3dc0c3-3eac-4d39-8f4c-95723163c2f3",
+      "cover_photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Bentley-Continental-GT-Background.png?alt=media&token=7c4ac457-d7ad-4d0e-ae23-b2f64ce0e11f",
+      "photos": [
+        {
+          "color": "blue",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Bentley-Continental-GT-Blue.png?alt=media&token=3c710805-7b3d-417f-b974-1866f6b3df14"
+        },
+        {
+          "color": "orange",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Bentley-Continental-GT-Orange.png?alt=media&token=af8b3914-bbc5-4895-bd97-45dd447a9946"
+        },
+        {
+          "color": "black",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Bentley-Continental-GT-Black.png?alt=media&token=8a0e1a90-92f4-4faa-9502-c8b44d09733d"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "model": "M1 Competition",
+      "brand": "BMW",
+      "price": 825,
+      "period": "day",
+      "brand_logo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/BMW-Logo.png?alt=media&token=c26015d2-03b7-4384-8911-c64745362fd1",
+      "cover_photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/BMW-M1-Competition-Background.png?alt=media&token=f03c1502-e1b5-448a-8f12-7cee051228c1",
+      "photos": [
+        {
+          "color": "white",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/BMW-M1-Competition-Background.png?alt=media&token=f03c1502-e1b5-448a-8f12-7cee051228c1"
+        },
+        {
+          "color": "black",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/BMW-M1-Competition-Black.png?alt=media&token=4a71f1ac-d861-4b9b-a431-f8e3c97839f6"
+        },
+        {
+          "color": "blue",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/BMW-M1-Competition-Blue.png?alt=media&token=632d441e-6876-462e-aa2f-402e6d2adb6a"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "model": "4C Spider",
+      "brand": "Alfa Romeo",
+      "price": 825,
+      "period": "day",
+      "brand_logo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Alfa-Romeo-Logo.png?alt=media&token=356c1d71-1ae4-45f2-bf66-e20918a49b6a",
+      "cover_photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Alfa-Romeo-4C-Spider-Background.png?alt=media&token=a8d6cfe4-d753-476b-9ed2-6924c21c8339",
+      "photos": [
+        {
+          "color": "yellow",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Alfa-Romeo-4C-Spider-Yellow.png?alt=media&token=2be17930-dfd0-4200-965e-82dcbc013e81"
+        },
+        {
+          "color": "red",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Alfa-Romeo-4C-Spider-Red.png?alt=media&token=2c76a310-c424-4034-8893-b485e013c879"
+        },
+        {
+          "color": "black",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Alfa-Romeo-4C-Spider-Black.png?alt=media&token=c048ffa5-038c-4527-a326-88d0007ff481"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "model": "P1 GTR",
+      "brand": "Mclaren",
+      "price": 925,
+      "period": "day",
+      "brand_logo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Mclaren-Logo.png?alt=media&token=bff1c6fa-059c-4dba-9a10-61c655fbf080",
+      "cover_photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Mclaren-P1-GTR-Background.png?alt=media&token=b1cde802-9893-4eee-a1c9-4571d8a5cbc5",
+      "photos": [
+        {
+          "color": "blue",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Mclaren-P1-GTR-Black-Blue.png?alt=media&token=a9407ecf-4780-4517-927e-dd2382f198af"
+        },
+        {
+          "color": "black",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/McLaren-P1-GTR-Black.png?alt=media&token=1e42cae7-7a2f-4bf1-961d-d5f9e7c30342"
+        },
+        {
+          "color": "white",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/McLaren-P1-GTR-White.png?alt=media&token=6ae4a327-5df4-4e1a-9b07-a2ec23ea9def"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "model": "Aventador",
+      "brand": "Lamborghini",
+      "price": 925,
+      "period": "day",
+      "brand_logo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Lamborghini-Logo.png?alt=media&token=9ef8a1b3-1e58-4f16-a020-703473deb571",
+      "cover_photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Lamborghini-Aventador-Background.png?alt=media&token=301ac29c-8f19-4f0a-ab91-731258565a13",
+      "photos": [
+        {
+          "color": "orange",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Lamborghini-Aventador-Orange.png?alt=media&token=69314d45-ed67-4750-810d-1e151aa5bb23"
+        },
+        {
+          "color": "green",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Lamborghini-Aventador-Green.png?alt=media&token=ba4bb721-b0ae-4373-bfe8-c1ec6176047e"
+        },
+        {
+          "color": "grey",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Lamborghini-Aventador-Gray.png?alt=media&token=5bf605a6-16bb-447c-892f-f41c5b14e26f"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "model": "Veyron Spyder",
+      "brand": "Bugatti",
+      "price": 925,
+      "period": "day",
+      "brand_logo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Bugatti-Logo.png?alt=media&token=77cbbf15-798f-441c-b795-4afc39a03b88",
+      "cover_photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Bugatti-Veyron-Spider-Background.png?alt=media&token=c40dcc35-7161-4b44-882e-2dbde3ebb24f",
+      "photos": [
+        {
+          "color": "blue",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Bugatti-Veyron-Spider-Blue.png?alt=media&token=08277395-1057-468c-90a4-e67bf7a2a834"
+        },
+        {
+          "color": "black",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Bugatti-Veyron-Spider-Black.png?alt=media&token=c097f077-b8f6-405f-897a-99edb6881f23"
+        },
+        {
+          "color": "red",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Bugatti-Veyron-Spider-Red.png?alt=media&token=1153215d-c4fd-4326-9e6d-02153320d70d"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "model": "Corvette",
+      "brand": "Chevrolet",
+      "price": 925,
+      "period": "day",
+      "brand_logo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Chevrolet-Logo.png?alt=media&token=c04bbf45-2b6f-46b3-854b-4a4e61642512",
+      "cover_photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Chevrolet-Corvette-Background.png?alt=media&token=96419beb-37d9-4eda-9d8c-7f1abc1a1d88",
+      "photos": [
+        {
+          "color": "white",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Chevrolet-Corvette-White.png?alt=media&token=5bacbf77-7696-49ad-93a5-9942060b7a43"
+        },
+        {
+          "color": "red",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Chevrolet-Corvette-Red.png?alt=media&token=efe9eea9-45e0-466a-b0bf-7d1f9c913ab3"
+        },
+        {
+          "color": "gray",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Chevrolet-Corvette-Gray.png?alt=media&token=0052cc7a-778d-4b99-8f2b-e63648d33fbd"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "model": "458 Italia",
+      "brand": "Ferrari",
+      "price": 725,
+      "period": "day",
+      "brand_logo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Ferrari-Logo.png?alt=media&token=a9003932-8c17-4337-b7fd-0854830c3abb",
+      "cover_photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Ferrari-458-Italia-Background.png?alt=media&token=18603c40-8e5e-460b-a643-279fb65ce109",
+      "photos": [
+        {
+          "color": "red",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Ferrari-458-Italia-Red.png?alt=media&token=b4b28003-c63c-42f0-9a7f-57465c335130"
+        },
+        {
+          "color": "yellow",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Ferrari-458-Italia-Yellow.png?alt=media&token=2d68704b-59ef-487f-81f5-a78476fd5b12"
+        },
+        {
+          "color": "black",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Ferrari-458-Italia-Yellow.png?alt=media&token=2d68704b-59ef-487f-81f5-a78476fd5b12"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "model": "Wraith",
+      "brand": "Rolls Royce",
+      "price": 725,
+      "period": "day",
+      "brand_logo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Rolls-Royce-Logo.png?alt=media&token=e053de0f-5b03-4ef5-9503-347cfe989027",
+      "cover_photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Rolls-Royce-Wraith-Background.png?alt=media&token=592b3bfc-9df3-4027-ad59-ec9483bb001a",
+      "photos": [
+        {
+          "color": "red",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Rolls-Royce-Wraith-Red.png?alt=media&token=39df489a-21b2-48a2-9207-ad1df44879e6"
+        },
+        {
+          "color": "black",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Rolls-Royce-Wraith-Black.png?alt=media&token=1a3ad436-e5bc-43ae-afd0-4dd9ac0b8e4d"
+        },
+        {
+          "color": "white",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Rolls-Royce-Wraith-White.png?alt=media&token=743de7ae-3f23-4d55-928e-ddc627dc570b"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "model": "911 Turbo S",
+      "brand": "Porshe",
+      "price": 725,
+      "period": "day",
+      "brand_logo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Porshe-Logo.png?alt=media&token=fb1affca-c235-4def-9ca9-49ecac0b94ac",
+      "cover_photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Porshe-Turbo-S-Background.png?alt=media&token=dc6c279c-da27-43b6-9f7b-177265b3adf4",
+      "photos": [
+        {
+          "color": "white",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Porshe-Turbo-S-White.png?alt=media&token=8cc76a99-45e7-4af9-a67d-dd27d4948c65"
+        },
+        {
+          "color": "black",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Porshe-Turbo-S-Black.png?alt=media&token=464d2051-6d21-45c3-af42-ba34541d586e"
+        },
+        {
+          "color": "grey",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Porshe-Turbo-S-Gray.png?alt=media&token=0c3a8bcb-e44b-4f94-acc7-a90f67962f43"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "model": "AMG GTS",
+      "brand": "Mercedes Benz",
+      "price": 725,
+      "period": "day",
+      "brand_logo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Mercedes-Benz-Logo.png?alt=media&token=c4bb9019-4cb7-43f6-bebf-654b5611f5f1",
+      "cover_photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Mercedes-Benz-AMG-GTS-Background.png?alt=media&token=dd1b7738-76eb-4b31-a8a8-ccdd2e7babe1",
+      "photos": [
+        {
+          "color": "grey",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Mercedes-Benz-AMG-GTS-Gray.png?alt=media&token=2b9a2aca-bea0-4fad-aee2-469bcc076277"
+        },
+        {
+          "color": "yellow",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Mercedes-Benz-AMG-GTS-Yellow.png?alt=media&token=295beaa1-8569-4740-bb6e-434253ca1476"
+        },
+        {
+          "color": "green",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/exotic-cars-lab-luby.appspot.com/o/Mercedes-Benz-AMG-GTS-Green.png?alt=media&token=da2d0bed-b050-400d-9836-00ad658286b1"
+        }
+      ]
+    }
+  ]
+}
