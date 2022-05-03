@@ -11,6 +11,7 @@ export type ButtonProps = {
 	borderRadius?: number;
 	children: React.ReactNode;
 	onClick?: MouseEventHandler<HTMLButtonElement>;
+	className?: string;
 };
 
 export type CarItemProps = {
@@ -27,7 +28,17 @@ export type CarDetailsProps = {
 	currentCar: ICar;
 };
 
+export type CarSlide = {
+	id: number;
+	photo: string;
+};
+
+export type CarSliderProps = {
+	models: CarSlide[];
+	onChangeModelColor: (index: number) => void;
+};
+
 export type CarsSlice = {
 	list: Array<ICar>;
-	currentCar: ICar;
+	currentCar: ICar | any;
 };
