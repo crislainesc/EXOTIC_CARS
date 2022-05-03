@@ -8,18 +8,11 @@ import { CarsSlice } from '@shared/types';
 
 const { listCars } = carsServices();
 
+const data = { ...localStorage };
+
 const initialCarsState: CarsSlice = {
-	list: [],
-	currentCar: {
-		id: 0,
-		model: '',
-		brand: '',
-		price: 0,
-		period: '',
-		brand_logo: '',
-		cover_photo: '',
-		photos: [],
-	},
+	list: JSON.parse(data.cars),
+	currentCar: JSON.parse(data.currentCar)[0],
 };
 
 const carsSlice = createSlice({
@@ -30,10 +23,14 @@ const carsSlice = createSlice({
 	reducers: {
 		addCars: (state, action: PayloadAction<ICarsResponse>) => {
 			state.list = action.payload.cars;
+			localStorage.setItem('cars', JSON.stringify(action.payload.cars));
 		},
 
 		selectCar: (state, action: PayloadAction<number>) => {
-			state.currentCar = state.list.find((car) => car.id === action.payload)!;
+			state.currentCar = state.list.filter(
+				(car: any) => car.id === action.payload
+			)!;
+			localStorage.setItem('currentCar', JSON.stringify(state.currentCar));
 		},
 	},
 
@@ -42,6 +39,7 @@ const carsSlice = createSlice({
 			asyncAddCars.fulfilled,
 			(state, action: PayloadAction<ICarsResponse>) => {
 				state.list = action.payload.cars;
+				localStorage.setItem('cars', JSON.stringify(action.payload.cars));
 			}
 		);
 	},
