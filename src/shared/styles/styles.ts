@@ -16,4 +16,7 @@ export const Text = styled.p<ITextProps>`
 	font-size: ${({ fontSize }) => `${fontSize}rem`};
 	font-weight: ${({ fontWeight }) => `${fontWeight}`};
 	color: ${({ color, theme }) => (color ? `${color}` : theme.colors.grey08)};
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
 `;
