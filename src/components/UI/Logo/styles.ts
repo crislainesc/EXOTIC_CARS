@@ -7,5 +7,5 @@ export const LogoContainer = styled.div`
    cursor: pointer;
    position: fixed;
    left: 0;
-   padding-left: 7vh;
+   padding-left: 5vh;
 `
