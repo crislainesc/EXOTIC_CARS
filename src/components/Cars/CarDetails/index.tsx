@@ -1,4 +1,5 @@
 import React, { memo, useCallback, useMemo, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 
@@ -7,6 +8,10 @@ import Button from '../../UI/Buttons/Button';
 
 import { CarDetailsProps } from '@shared/types';
 
+import { formatValueToCurrency } from '@shared/utils';
+
+import { Text, theme } from '@shared/styles';
+
 import {
 	CarDetailsContainer,
 	CarDetailsModelCarImage,
@@ -14,9 +19,6 @@ import {
 	CarDetailsModelContainer,
 	CarDetailsModelInfo,
 } from './styles';
-import { Text, theme } from '@shared/styles';
-import { formatValueToCurrency } from '@shared/utils';
-import { useNavigate } from 'react-router-dom';
 
 const CarDetails = ({ currentCar }: CarDetailsProps): JSX.Element => {
 	const [modelColorIndex, setModelColorIndex] = useState(0);
