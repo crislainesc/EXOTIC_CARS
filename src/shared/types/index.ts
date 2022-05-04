@@ -21,7 +21,7 @@ export type CarItemProps = {
 	price: number;
 	period: string;
 	cover_photo: string;
-	onClickHandler: MouseEventHandler<HTMLAnchorElement>;
+	onClickHandler: MouseEventHandler<HTMLAnchorElement | HTMLDivElement>;
 };
 
 export type CarDetailsProps = {
@@ -36,6 +36,7 @@ export type CarSlide = {
 export type CarSliderProps = {
 	models: CarSlide[];
 	onChangeModelColor: (index: number) => void;
+	currentIndex: number;
 };
 
 export type CarsSlice = {
