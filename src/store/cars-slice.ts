@@ -1,18 +1,18 @@
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-import { ICarsResponse } from '@shared/interfaces';
+import { ICar, ICarsResponse } from '@shared/interfaces';
 
 import { carsServices } from '@shared/services';
 
 import { CarsSlice } from '@shared/types';
 
+import { ThunkConfig } from '.';
+
 const { listCars } = carsServices();
 
-const data = { ...localStorage };
-
 const initialCarsState: CarsSlice = {
-	list: JSON.parse(data.cars),
-	currentCar: JSON.parse(data.currentCar)[0],
+	list: [],
+	currentCar: {},
 };
 
 const carsSlice = createSlice({
@@ -23,32 +23,20 @@ const carsSlice = createSlice({
 	reducers: {
 		addCars: (state, action: PayloadAction<ICarsResponse>) => {
 			state.list = action.payload.cars;
-			localStorage.setItem('cars', JSON.stringify(action.payload.cars));
 		},
 
 		selectCar: (state, action: PayloadAction<number>) => {
-			state.currentCar = state.list.filter(
-				(car: any) => car.id === action.payload
-			)!;
-			localStorage.setItem('currentCar', JSON.stringify(state.currentCar));
+			state.currentCar = state.list.find((car) => car.id === action.payload)!;
 		},
-	},
-
-	extraReducers: (builder) => {
-		builder.addCase(
-			asyncAddCars.fulfilled,
-			(state, action: PayloadAction<ICarsResponse>) => {
-				state.list = action.payload.cars;
-				localStorage.setItem('cars', JSON.stringify(action.payload.cars));
-			}
-		);
 	},
 });
 
-export const asyncAddCars = createAsyncThunk(
+export const asyncAddCars = createAsyncThunk<ICarsResponse, void, ThunkConfig>(
 	'cars/fetchListCars',
-	async (): Promise<ICarsResponse> => {
-		return await listCars();
+	async (_, ThunkAPI) => {
+		const response = await listCars();
+		ThunkAPI.dispatch(addCars(response));
+		return response;
 	}
 );
 
