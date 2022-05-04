@@ -5,7 +5,7 @@ import CarItem from './CarItem';
 
 import { useAppDispatch } from '@hooks';
 
-import { ICar, ICarsResponse } from '@shared/interfaces';
+import { ICarsResponse } from '@shared/interfaces';
 
 import { selectCar } from '@store/cars-slice';
 
@@ -17,7 +17,7 @@ const CarsList = ({ cars }: ICarsResponse): JSX.Element => {
 
 	const carOnClickHandler = (id: number, model: string) => {
 		dispatch(selectCar(id));
-		navigate(`/details/${id}/${model}`);
+		navigate(`/details/${id}/${model}`, { replace: true });
 	};
 
 	return (

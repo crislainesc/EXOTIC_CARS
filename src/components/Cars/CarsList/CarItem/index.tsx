@@ -23,7 +23,7 @@ const CarItem = ({
 }: CarItemProps): JSX.Element => {
 
 	return (
-		<CarItemContainer>
+		<CarItemContainer onClick={onClickHandler}>
 			<CarItemInfo>
 				<Text fontSize={1.06} fontWeight='700'>
 					{brand}

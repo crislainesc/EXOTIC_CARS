@@ -55,16 +55,16 @@ export const CarItemPriceAndPeriod = styled.div`
 	& div {
 		display: flex;
 		align-items: baseline;
+		position: relative;
 
 		::before {
 			content: '$';
+			position: static;
+			transform: translate(-1px, -10px);
          color: ${({ theme }) => theme.colors.grey08};
 			font-size: 0.8rem;
 			font-weight: 700;
 			height: 100%;
-			position: static;
-			bottom: 10px;
-			margin: 3px;
 		}
 	}
 `;
